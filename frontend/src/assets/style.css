@@ -1,0 +1,415 @@
+/********
+main*****/
+body{
+    margin: 0;
+    padding: 0;
+}
+.list-item {
+    display: flex;
+    gap: 3%;
+    width: 72.5vw;
+    justify-content: end;
+    align-items: center;
+    font-size: 1.5vw;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+.mains {
+    width: 100%;
+    position: relative;
+}
+
+.header {
+    position: relative;
+}
+
+.logo img{
+    width: 4vw;
+}
+
+.header .shades {
+    background-color: rgb(8 234 145 / 40%);
+    position: absolute;
+    top: 0;
+    height: 64.3vw;
+    width: 100%;
+}
+
+p.line {
+    position: absolute;
+    top: 43%;
+    left: 30%;
+    font-size: 241%;
+    color: white;
+}
+
+.container{
+    width: 30%;
+    position: absolute;
+
+
+}
+.search {
+    position: absolute;
+    bottom: 22vh;
+    left: 38%;
+    font-size: 1vw;
+    padding: 10px;
+    width: 25%;
+    border-radius: 10px;
+    border-color: white;
+}
+
+img.magnifying-glass {
+    width: 1.5vw;
+    position: absolute;
+    left: 62%;
+    bottom: 23vh;
+}
+
+.footer-1 .base-1 img:hover{
+    transition-duration: 0.5s;
+    width: 16vw;
+}
+
+.header h1 {
+    position: relative;
+    font-size: 4.5vw;
+    color: white;
+    bottom: 22vh;
+}
+
+.header-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    margin-top: 40%;
+}
+
+h2.Wonder {
+    text-align: center;
+    font-size: 2.5vw;
+}
+
+
+img.moustachee {
+    position: absolute;
+    left: 48%;
+    width: 3.5vw;
+}
+
+.footer-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-right: 1%;
+}
+.footer-1 img {
+    width: 90%;
+    margin-left: 9px;
+}
+
+.heads {
+    text-align: center;
+    font-size: 3vw;
+    font-weight: bold;
+    padding-bottom: 2vw;
+}
+
+.Tour-images {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+
+.Tour-1 {
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 30px;
+    box-shadow: 6px 6px 20px #888888;
+    position: relative;
+}
+#like {
+    width: 2.5%;
+    position: absolute;
+    border: 1px solid black;
+    border: none;
+    background-color: #ffffff;
+    border-radius: 50%;
+    top: 0;
+    padding: 1%;
+    margin-top: 1%;
+    margin-left: 93%;
+}
+
+.Tour-1 img {
+    width: 100%;
+}
+.Tour-1 p {
+    margin: 3%;
+    font-size: 1.5vw;
+}
+
+.blur-1 {
+    position: relative;
+}
+
+img.blur-image {
+    width: 100%;
+    vertical-align: bottom;
+
+}
+
+.blur-1 h5 {
+    position: absolute;
+    top: 0;
+    color: white;
+    left: 47%;
+    font-size: 1.5vw;
+}
+
+.blur-1 p {
+    position: absolute;
+    top: 5%;
+    color: white;
+    left: 40%;
+    font-size: 2.2vw;
+}
+
+img.blur-header-background {
+    position: absolute;
+    width: 32%;
+    top: 23%;
+    left: 33%;
+}
+
+img.blur-icon-background-1 {
+    position: absolute;
+    top: 38%;
+    left: 47%;
+    width: 4%;
+}
+.blur-1 .shade {
+    position: absolute;
+    width: 100%;
+    background-color: #0000009c;
+    top: 0;
+    height: 35vw;
+}
+
+/****
+***class blur-header-1
+***/
+
+#nic {
+    text-decoration: none;
+    color: #08AEEA;
+}
+
+#fav{
+    color: #08AEEA;
+  }
+#ic{
+    color: black;
+    text-decoration: none;
+  }
+
+img.blur-2 {
+    width: 100%;
+    vertical-align: bottom;
+
+} 
+.blur-header-1 h2 {
+    position: absolute;
+    top: 2%;
+    left: 34%;
+    font-size: 2.5vw;
+}
+
+.blur-header-1 p {
+    position: absolute;
+    top: 23%;
+    left: 40%;
+    font-size: 1.5vw;
+}
+
+.blur-header-1 .middle-search button {
+    border-radius: 40px;
+    background-color: white;
+    border-color: white;
+    color: hsl(164deg 66% 63%);
+    width: 8%;
+    font-family: raleway;
+    font-weight: bold;
+  }
+
+.maps{
+    width: 100%;
+    bottom: 0;
+    vertical-align: bottom;
+}
+
+input.middle-search {
+    position: absolute;
+    top: 46%;
+    left: 37%;
+    font-size: 1vw;
+    padding: 5px;
+    border-radius: 40px;
+    width: 18%;
+    background-color: inherit;
+    border-color: white;
+    border: 1px solid white;
+}
+
+button.blur-header-1-button {
+    position: absolute;
+    top: 46%;
+    left: 57%;
+    padding: 3px;
+    font-size: 1.3vw;
+    border-radius: 40px;
+    background-color: white;
+    border-color: white;
+    color: hsl(164deg 66% 63%);
+    width: 8%;
+    font-family: raleway;
+    font-weight: bold;
+}
+
+
+.list {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.base{
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+}
+
+
+/*****
+*****/
+
+
+.blur-header-1 .shade {
+    background-color: rgb(8 234 140 / 40%);
+    position: absolute;
+    top: 0%;
+    height: 24.3vw;
+    width: 100%;
+}
+.blur-header-1{
+    position: relative;
+}
+h3.heading-page {
+    font-size: 2.3vw;
+}
+.page p {
+    font-size: 2vw;
+}
+/*******
+footer***/
+
+footer{
+    background-color: black;
+    font-size: 1.5vw;
+    padding-top: 3%;
+    color: #DCDBDB;
+}
+
+.List-2 h3 {
+    margin: 0;
+    font-size: 2vw;
+}
+ .List-1 h3 {
+    margin: 0;
+    font-size: 2vw;
+}
+button.footer-button {
+    background-color: paleturquoise;
+}
+/******
+media screen****/
+ @media screen and (max-width:500px){
+    .Tour-1 p {
+        font-size: 2.5vw;
+    }
+    .footer-1 .base-1 p {
+        font-size: 2vw;
+    }
+    footer {
+        font-size: 2.5vw;
+    }
+    img.magnifying-glass {
+        width: 1.5vw;
+        top: 78%;
+    }
+    .list {
+        display: block;
+
+    }
+    footer {
+        background-color: black;
+        color: white;
+        font-size: 1.5vw;
+        text-align: center;
+    }
+    p.heading-page {
+        font-size: 2vw;
+    }
+ }
+
+ /*****
+file3.html
+*********/
+
+.page {
+    margin: 0 8%;
+}
+
+p.heading-page {
+    font-size: 2vw;
+}
+.blur{
+    filter: blur(15px);
+    position: relative;
+}
+
+
+.index {
+    position: absolute;
+    top: 10vw;
+    width: 100%;
+}
+
+.index img{
+    width: 80%;
+    position: relative;
+    left: 10%;
+
+}
+
+.index .cancel {
+    position: absolute;
+    left: 83vw;
+    top: 22px;
+    width: 2vw;
+}
+
+img.arrowicon {
+    position: absolute;
+    right: 44vw;
+    width: 3.2vw;
+    margin-top: 14vw;
+}
